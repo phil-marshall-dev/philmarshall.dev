@@ -10,9 +10,10 @@ import {
 export default function App() {
   return (
       <Routes>
-        <Route path="/" element={<div>hi henry</div>}/>
-            {/* <Route index element={<Home />} /> */}
-            {/* <Route path="about" element={<Blog />} /> */}
+        <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="blog" element={<Blog />} />
+        </Route>
       </Routes>
   );
 }
