@@ -7,3 +7,8 @@
 .mr {
   margin-right: .5rem
 }
+
+.download {
+  color: white;
+  text-decoration: none;
+}

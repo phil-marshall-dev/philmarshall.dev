@@ -18,7 +18,7 @@ export default function Home() {
           </p>
           <Button>
             <span className="mr"><BsCloudDownload/></span>
-            <span>Download Resume</span>
+            <span><a className="download" href="/resume.pdf">Download Resume</a></span>
           </Button>
         </div>
       </div>
