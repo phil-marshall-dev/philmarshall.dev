@@ -2,6 +2,7 @@ import React from 'react';
 import {
   Link
 } from "react-router-dom";
+import ReactMarkdown from 'react-markdown'
 const BlogPost = ({ title, author, date, content, slug }) => {
   return (
     <div className="blog-post">
@@ -12,7 +13,9 @@ const BlogPost = ({ title, author, date, content, slug }) => {
       </h2>
       <p>By {author} on {date}</p>
       <div className="post-content">
-        {content}
+        <ReactMarkdown>
+          {content}
+        </ReactMarkdown>
       </div>
     </div>
   );

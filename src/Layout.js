@@ -10,7 +10,7 @@ import Navbar from 'react-bootstrap/Navbar';
 export default function Layout() {
   return (
     <div>
-      <Navbar expand="lg" className="bg-body-tertiary">
+      <Navbar expand="lg" bg="primary" data-bs-theme="dark">
         <Container>
           <Navbar.Brand>Phil Marshall</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

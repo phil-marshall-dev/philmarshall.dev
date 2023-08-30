@@ -16,9 +16,9 @@ export default function Blog() {
   })
   return (
     <div class="jumbotron">
-      <div class="container">
-        {blogPosts}
-      </div>
+    <div class="container">
+      {blogPosts}
     </div>
+  </div>
   );
 }
